@@ -1,0 +1,4 @@
+[submodule "backend"]
+	ignore = dirty
+[submodule "backend-spainroom/backend-with-cedulas/backend1"]
+	ignore = dirty

@@ -1,0 +1,22 @@
+[31mx[39m Build failed in 401ms
+[31merror during build:
+[31m[vite:esbuild] Transform failed with 1 error:
+C:/spainroom/src/pages/Propietarios.jsx:76:0: ERROR: Expected "]" but found end of file[31m
+file: [36mC:/spainroom/src/pages/Propietarios.jsx:76:0[31m
+[33m
+[33mExpected "]" but found end of file[33m
+74 |    const [enviando, setEnviando] = useState(false);
+75 |    const [enviado, set
+76 |  
+   |  ^
+[31m
+    at failureErrorWithLog (C:\spainroom\node_modules\esbuild\lib\main.js:1472:15)
+    at C:\spainroom\node_modules\esbuild\lib\main.js:755:50
+    at responseCallbacks.<computed> (C:\spainroom\node_modules\esbuild\lib\main.js:622:9)
+    at handleIncomingPacket (C:\spainroom\node_modules\esbuild\lib\main.js:677:12)
+    at Socket.readFromStdout (C:\spainroom\node_modules\esbuild\lib\main.js:600:7)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)[39m
